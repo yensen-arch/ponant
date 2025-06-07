@@ -1,23 +1,23 @@
 import { Card, CardContent } from "@/components/ui/card";
 
 const experiences = [{
-  title: "French Art de Vivre",
-  description: "Experience elegant design, fine dining by Ducasse Conseil, and attentive French hospitality throughout your voyage.",
+  title: "French-Inspired Elegance",
+  description: "Combines luxurious design with refined service and French art de vivre onboard.",
   color: "bg-blue-50 text-blue-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684533/cld-sample-4.jpg"
 }, {
-  title: "Expedition with Purpose",
-  description: "Travel with naturalists, scientists, and cultural experts who bring destinations to life through guided excursions and onboard enrichment.",
+  title: "Environmental Innovation",
+  description: "Hybrid-electric and LNG ships push industry standards in sustainable cruising.",
   color: "bg-rose-50 text-rose-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684532/samples/cup-on-a-table.jpg"
 }, {
-  title: "Modern Luxury Yachts",
-  description: "Ponant’s intimate vessels carry 92–264 guests and feature eco-conscious technology, spa services, and sleek design.",
+  title: "Expedition & Cultural Cruises",
+  description: "Itineraries range from remote polar voyages to Mediterranean cultural immersions.",
   color: "bg-amber-50 text-amber-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684530/samples/balloons.jpg"
 }, {
-  title: "Environmental Stewardship",
-  description: "Ponant is a pioneer in sustainable cruising—its hybrid ships and Blue Expeditions promote eco-awareness and responsible travel.",
+  title: "Partnerships with Experts",
+  description: "Collaborations with Smithsonian Journeys and Le Cercle Polaire enrich educational depth.",
   color: "bg-emerald-50 text-emerald-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684526/samples/landscapes/beach-boat.jpg"
 }];
@@ -68,7 +68,7 @@ const ExperienceAndWhy = () => {
           <div className="w-24 h-1 bg-viking-gold mx-auto"></div>
         </div>
 
-        {/* Viking River Cruises Section */}
+        {/* Ponant Cruises Section */}
         <div className="mb-24">
           <div className="mb-12 flex justify-center border-2 border-viking-gold py-4">
             <img
